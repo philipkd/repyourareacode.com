@@ -1,0 +1,44 @@
+body {
+	margin-top: 20px;
+	font-family: 'Inter', sans-serif;
+}
+div {
+	text-align: center;
+}
+#profile img {
+	width: 150px;
+	height: 150px;
+	clip-path: circle(75px at center);
+	margin-bottom: 20px;
+}
+#profile {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+#profile-wrap {
+	filter: drop-shadow(0 3px 5px rgba(0,0,0,.25));
+}
+.btn img {
+	width: 40px;
+	height: 40px;
+	margin: 10px 10px;
+	vertical-align: -24px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.btn {
+	background: rgb(188,217,245);
+	background: linear-gradient(0deg, rgba(188,217,245,1) 0%, rgba(186,233,247,1) 100%);
+	box-shadow: 0 3px 5px rgba(0,0,0,.25);	
+	border-radius: 5px;
+	margin: 0 auto 20px;
+	max-width: 1050px;
+}
+.map {
+	margin-bottom: 20px;
+}
+.map img {
+	max-width: 100%;
+}
